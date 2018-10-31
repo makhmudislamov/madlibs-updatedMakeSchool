@@ -14,31 +14,24 @@ def delay_print(string):
     return ">>"
 
 
-# assigning green color to my text
-green = '\033[32m'
-# assigning red color to display user input
-red = '\033[31m'
+
+# assigning yellow color to display output
+yellow = "\033[33m"
 
 
 def hpotter_theme():
 
         # Intro
-    delay_print(green + "SEARCHING...")
-    sleep(2)
-    delay_print(green + "I see you are awake!")
-    sleep(1)
-    delay_print(green + "The Matrix has you now...")
-    sleep(1)
     welcome_text = 'Welcome to the Matrix stranger! I know you have questions and I have answers for them. Ill dive into your subconcious\n for the answers you need. But before I have have to know you better'
-    delay_print(green + welcome_text.upper())
+    delay_print(yellow + welcome_text.upper())
     sleep(1)
 
     # Questions
     name = input(delay_print(
-        green + "How do they call you in non-digital realm? "))
+        yellow + "How do they call you in non-digital realm? "))
     sleep(1)
     delay_print(
-        green + "Not bad! If you reach Zion, you will be assigned your digital name.")
+        yellow + "Not bad! If you reach Zion, you will be assigned your digital name.")
     sleep(1)
     restaurant = input(delay_print("Which restaurant is your favorite? "))
     sleep(1)
@@ -52,26 +45,26 @@ def hpotter_theme():
     sleep(1)
 
     # Final text
-    print(red + "Request sent")
+    print(yellow + "Request sent")
     sleep(1)
-    delay_print(red + "Receiving response from Zion...")
+    delay_print(yellow + "Receiving response from Zion...")
     sleep(1)
-    print(red + "Here is the message from Morphius:")
+    print(yellow + "Here is the message from Morphius:")
 
-    delay_print(green + "I salute you " + red + name + "! " + green +
+    delay_print(yellow + "I salute you " + yellow + name + "! " + yellow +
                 "You cheated the system and enrolled to Make School to join other hackers. Merovingian announced a reward for your codes. "
-                "The agents are waiting for your at " + red + restaurant +
-                green + ". Don’t go there anymore. Stay awake and look for "
-                + red + color + " " + animal + green + ".\n It will lead you to Trinity. She will be in " + red + color + " " + car + green + " at " + red + street + green + ".\n End of line...")
+                "The agents are waiting for your at " + yellow + restaurant +
+                yellow + ". Don’t go there anymore. Stay awake and look for "
+                + yellow + color + " " + animal + yellow + ".\n It will lead you to Trinity. She will be in " + yellow + color + " " + car + yellow + " at " + yellow + street + yellow + ".\n End of line...")
 
     exit()
 
-    delay_print(green + "SEARCHING...")
+    delay_print(yellow + "SEARCHING...")
     sleep(2)
-    delay_print(green + "I see you are awake!")
+    delay_print(yellow + "I see you are awake!")
     sleep(1)
-    delay_print(green + "The Matrix has you now...")
+    delay_print(yellow + "The Matrix has you now...")
     sleep(1)
     welcome_text = 'Welcome to the Matrix stranger! I know you have questions and I have answers for them. Ill dive into your subconcious\n for the answers you need. But before I have have to know you better'
-    delay_print(green + welcome_text.upper())
+    delay_print(yellow + welcome_text.upper())
     sleep(1)
