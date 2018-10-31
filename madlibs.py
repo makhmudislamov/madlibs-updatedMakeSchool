@@ -9,7 +9,12 @@ def user_input(prompt):
 
 def start_madlibs():
 
-    theme_choice = user_input("choose M or H")
+    theme_choice = user_input("""
+        Welcome to Madlibs!
+    
+    1. Enter M for Matrix movie
+    2. Enter H for Harry Potter movie
+    >>> """)
     if theme_choice in ["M", "m"]:
         matrix_theme()
     # elif theme_choice in ["H","h"]:

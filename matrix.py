@@ -76,23 +76,3 @@ def matrix_theme():
     delay_print(green + welcome_text.upper())
     sleep(1)
 
-
-# REQUIREMENTS
-
-# User Requrements:
-# 1. User should be able to make several inputs
-# 2. User should be able to see diplayed full text, where his/her inputs
-#     are colored
-
-# Functional Requirements
-# 1. The app should be able to recieve and store user inputs
-# 2. The app should be able to fill in the text with specific user inputs
-
-
-# Matrix white rabbit scene
-# starts with SEARCHING...
-# Wake up Neo
-# The Matrix has you...
-# ENDS with
-# Follow the white rabbit
-#  Knock, knock, Neo.
