@@ -22,16 +22,16 @@ yellow = "\033[33m"
 def hpotter_theme():
 
         # Intro
-    welcome_text = 'Welcome to the Matrix stranger! I know you have questions and I have answers for them. Ill dive into your subconcious\n for the answers you need. But before I have have to know you better'
+    welcome_text = 'Hello ! I know you have questions and I have answers for them. Ill dive into your subconcious\n for the answers you need. But before I have have to know you better'
     delay_print(yellow + welcome_text.upper())
     sleep(1)
 
     # Questions
     name = input(delay_print(
-        yellow + "How do they call you in non-digital realm? "))
+        yellow + "What is your name in Muggle world? "))
     sleep(1)
     delay_print(
-        yellow + "Not bad! If you reach Zion, you will be assigned your digital name.")
+        yellow + " Muggle names are funny. If you are accepted to Hogwarts, Sorting Hat will give you new ")
     sleep(1)
     restaurant = input(delay_print("Which restaurant is your favorite? "))
     sleep(1)
@@ -59,12 +59,12 @@ def hpotter_theme():
 
     exit()
 
-    delay_print(yellow + "SEARCHING...")
-    sleep(2)
-    delay_print(yellow + "I see you are awake!")
-    sleep(1)
-    delay_print(yellow + "The Matrix has you now...")
-    sleep(1)
-    welcome_text = 'Welcome to the Matrix stranger! I know you have questions and I have answers for them. Ill dive into your subconcious\n for the answers you need. But before I have have to know you better'
-    delay_print(yellow + welcome_text.upper())
-    sleep(1)
+    # delay_print(yellow + "SEARCHING...")
+    # sleep(2)
+    # delay_print(yellow + "I see you are awake!")
+    # sleep(1)
+    # delay_print(yellow + "The Matrix has you now...")
+    # sleep(1)
+    # welcome_text = 'Welcome to the Matrix stranger! I know you have questions and I have answers for them. Ill dive into your subconcious\n for the answers you need. But before I have have to know you better'
+    # delay_print(yellow + welcome_text.upper())
+    # sleep(1)
