@@ -20,6 +20,11 @@ def start_madlibs():
     elif theme_choice in ["H","h"]:
         hpotter_theme()
     else:
-        print("invalid input")
+        print("Invalid input. Try again")
+    return True
 
-start_madlibs()
+running = True
+while running:
+    start_madlibs()
+
+
