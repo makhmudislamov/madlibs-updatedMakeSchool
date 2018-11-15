@@ -32,7 +32,7 @@ def hpotter_theme():
         yellow + "What is your name in Muggle world? "))
     sleep(1)
     delay_print(
-        yellow + " Muggle names are funny. If you are accepted to Hogwarts, Sorting Hat will give you new ")
+        yellow + " Muggle names are funny. Sorting Hat will give you new name soon.")
     sleep(1)
     restaurant = input(delay_print("Which restaurant is your favorite? "))
     sleep(1)
@@ -46,16 +46,16 @@ def hpotter_theme():
     sleep(1)
 
     # Final text
-    print(yellow + "Request sent")
+    print(yellow + "Expecto Patronum !!! Chasing Dementors").upper()
     sleep(1)
-    delay_print(yellow + "Receiving response from Zion...")
+    delay_print(yellow + "Hedwig is flying with you letter...")
     sleep(1)
-    print(yellow + "Here is the message from Morphius:")
+    print(yellow + "Here is the message from Harry Potter:")
 
     delay_print(yellow + "I salute you " + yellow + name + "! " + yellow +
-                "You cheated the system and enrolled to Make School to join other hackers. Merovingian announced a reward for your codes. "
-                "The agents are waiting for your at " + yellow + restaurant +
-                yellow + ". Don’t go there anymore. Stay awake and look for "
+                "You cheated muggles and enrolled to Make School to join other tech wizards. Volendemort announced a reward for your GitHub authentication keys. "
+                "The Wisley twins are waiting for your at " + yellow + restaurant +
+                yellow + ". They will give u the Cloak of Invisibility, use it. Stay awake and look for "
                 + yellow + color + " " + animal + yellow + ".\n It will lead you to Trinity. She will be in " + yellow + color + " " + car + yellow + " at " + yellow + street + yellow + ".\n End of line...")
 
     exit()
