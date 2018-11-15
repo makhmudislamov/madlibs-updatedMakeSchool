@@ -22,7 +22,8 @@ yellow = "\033[33m"
 def hpotter_theme():
 
         # Intro
-    welcome_text = 'Hello ! I know you have questions and I have answers for them. Ill dive into your subconcious\n for the answers you need. But before I have have to know you better'
+    welcome_text = """Thank you for entering Hogwarts automagic portal!\n Harry is inviting you to his wedding but we wanna keep out messages from Dementors.\n 
+    Please answer the following secret questions."""
     delay_print(yellow + welcome_text.upper())
     sleep(1)
 
@@ -68,3 +69,9 @@ def hpotter_theme():
     # welcome_text = 'Welcome to the Matrix stranger! I know you have questions and I have answers for them. Ill dive into your subconcious\n for the answers you need. But before I have have to know you better'
     # delay_print(yellow + welcome_text.upper())
     # sleep(1)
+
+""" 
+Intro text:
+Thank you for entering Hogwarts automagic portal. Harry is inviting you to his wedding but we wanna keep out messages from Dementors. 
+Please answer the following secret questions.
+"""
