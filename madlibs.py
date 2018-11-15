@@ -8,7 +8,7 @@ def user_input(prompt):
     return user_input
 
 def start_madlibs():
-
+    print( ("Expecto Patronum !!! Chasing Dementors").upper())
     theme_choice = user_input("""
         Welcome to Madlibs!
     

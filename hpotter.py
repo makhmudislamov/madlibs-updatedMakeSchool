@@ -22,7 +22,7 @@ yellow = "\033[33m"
 def hpotter_theme():
 
         # Intro
-    welcome_text = """Thank you for entering Hogwarts automagic portal!\n Harry is inviting you to his wedding but we wanna keep out messages from Dementors.\n 
+    welcome_text = """Thank you for entering Hogwarts automagic portal!\n Harry is inviting you to his wedding but we wanna save our messages from Dementors.\n 
     Please answer the following secret questions."""
     delay_print(yellow + welcome_text.upper())
     sleep(1)
@@ -46,7 +46,7 @@ def hpotter_theme():
     sleep(1)
 
     # Final text
-    print(yellow + "Expecto Patronum !!! Chasing Dementors").upper()
+    print(yellow + ("Expecto Patronum !!! Chasing Dementors").upper())
     sleep(1)
     delay_print(yellow + "Hedwig is flying with you letter...")
     sleep(1)
