@@ -17,8 +17,7 @@ def delay_print(string):
 
 # assigning yellow color to display output
 yellow = "\033[33m"
-# assigning green color to my text
-green = '\033[32m'
+
 # assigning red color to display user input
 red = '\033[31m'
 
@@ -55,11 +54,11 @@ def hpotter_theme():
     sleep(1)
     print(yellow + "Here is the message from Harry Potter:")
 
-    delay_print(yellow + "I salute you " + red + name + "! " + green +
+    delay_print(yellow + "I salute you " + red + name + "! " + yellow +
                 "You cheated muggles and enrolled to Make School to join other tech wizards. Volendemort announced a reward for your GitHub authentication keys. "
-                "The Wisley twins are waiting for your at " + yellow + restaurant +
+                "The Wisley twins are waiting for your at " + red + restaurant +
                 yellow + ". They will give u the Cloak of Invisibility, use it. Stay awake and look for "
-                + yellow + color + " " + animal + yellow + ".\n It will lead you to Sirius Black. He will be in " + yellow + color + " " + car + yellow + " at " + yellow + street + yellow + ".\n Sirius knows how to get to our wedding venue. See you soon...")
+                + red + color + " " + animal + yellow + ".\n It will lead you to Sirius Black. He will be in " + red + color + " " + car + yellow + " at " + red + street + yellow + ".\n Sirius knows how to get to our wedding venue. See you soon...")
 
     exit()
 
