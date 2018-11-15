@@ -56,7 +56,7 @@ def hpotter_theme():
                 "You cheated muggles and enrolled to Make School to join other tech wizards. Volendemort announced a reward for your GitHub authentication keys. "
                 "The Wisley twins are waiting for your at " + yellow + restaurant +
                 yellow + ". They will give u the Cloak of Invisibility, use it. Stay awake and look for "
-                + yellow + color + " " + animal + yellow + ".\n It will lead you to Trinity. She will be in " + yellow + color + " " + car + yellow + " at " + yellow + street + yellow + ".\n End of line...")
+                + yellow + color + " " + animal + yellow + ".\n It will lead you to Sirius Black. He will be in " + yellow + color + " " + car + yellow + " at " + yellow + street + yellow + ".\n Sirius knows how to get to our wedding venue. See you soon...")
 
     exit()
 
