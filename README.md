@@ -9,3 +9,5 @@
 * [X] Users can make input
 
 
+## Video Demo
+![walkthrough](demo-madlibs.gif)
